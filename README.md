@@ -32,6 +32,7 @@
 2. Setting Cloudflare
 
     - Masuk ke DNS Records atur seperti ini
+    
     Type  | Name           | Content            | Proxy Status | TTL 
     ------|----------------|--------------------|--------------|-----
     A     | vpn            | [IP Server VPS]    | DNS Only     | Auto 
