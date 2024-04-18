@@ -64,6 +64,7 @@
     ```bash
     certv2ray
     ```
+
     - Jika ada tulisan hijau tandanya SSL berhasil di install
 
     ```bash
