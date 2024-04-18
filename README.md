@@ -71,7 +71,7 @@
     restart-xray
     ```
 
-7. Membuat akun TROJAN
+7. Membuat akun Trojan
 
     - Masuk ke menu ketik **xmenu**
     - Buat Akun Trojan
