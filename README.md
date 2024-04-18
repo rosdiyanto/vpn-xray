@@ -32,10 +32,18 @@
 2. Setting Cloudflare
 
     - Masuk ke DNS Records atur seperti ini
+        
+        Jika pakai sub domain
 
         Type  | Name           | Content            | Proxy Status | TTL 
         ------|----------------|--------------------|--------------|-----
         A     | vpn            | [IP Server VPS]    | DNS Only     | Auto 
+
+        Jika pakai domain
+        
+        Type  | Name           | Content            | Proxy Status | TTL 
+        ------|----------------|--------------------|--------------|-----
+        A     | domainmu.com   | [IP Server VPS]    | DNS Only     | Auto 
 
     - Masuk ke SSL/TLS -> Overview -> (set ke full)
     - Masuk ke SSL/TLS -> Edge Certificates -> Always Use HTTPS -> (set ke off)
