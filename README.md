@@ -65,7 +65,7 @@
     certv2ray
     ```
 
-    - Jika ada tulisan hijau tandanya SSL berhasil di install
+        - Jika ada tulisan hijau tandanya SSL berhasil di install
 
     ```bash
     restart-xray
