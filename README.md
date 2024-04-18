@@ -87,4 +87,4 @@
     ```bash
     netstat -tuln
     ```
-    - Jika port sudah listen tandanya sudah berhasil 
+    Jika port sudah listen tandanya sudah berhasil 
