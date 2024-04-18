@@ -26,63 +26,63 @@
 
 1. Lakukan update/upgrade
 
-```bash
-apt update && apt upgrade -y
-```
+    ```bash
+    apt update && apt upgrade -y
+    ```
 2. Setting Cloudflare
 
-- Masuk ke DNS Records atur seperti ini
-Type  | Name           | Content            | Proxy Status | TTL 
-------|----------------|--------------------|--------------|-----
-A     | vpn            | [IP Server VPS]    | DNS Only     | Auto 
+    - Masuk ke DNS Records atur seperti ini
+    Type  | Name           | Content            | Proxy Status | TTL 
+    ------|----------------|--------------------|--------------|-----
+    A     | vpn            | [IP Server VPS]    | DNS Only     | Auto 
 
-- Masuk ke SSL/TLS -> Overview -> (set ke full)
-- Masuk ke SSL/TLS -> Edge Certificates -> Always Use HTTPS -> (set ke off)
-- Masuk ke Network -> WebSockets -> (set ke on)
+    - Masuk ke SSL/TLS -> Overview -> (set ke full)
+    - Masuk ke SSL/TLS -> Edge Certificates -> Always Use HTTPS -> (set ke off)
+    - Masuk ke Network -> WebSockets -> (set ke on)
 
 3. Masukan domain kamu atau bisa juga subdomain
 
-```bash
-echo "vpn.domainmu.com" >/root/domain; mkdir -p /etc/xray; echo "vpn.domainmu.com" >/etc/xray/domain
-
-```
+    ```bash
+    echo "vpn.domainmu.com" >/root/domain; mkdir -p /etc/xray; echo "vpn.domainmu.com" >/etc/xray/domain
+    ```
 
 4. Untuk install
 
-```bash
-wget https://raw.githubusercontent.com/rosdiyanto/vpn-xray/main/setup.sh && chmod +x setup.sh && ./setup.sh
-```
+    ```bash
+    wget https://raw.githubusercontent.com/rosdiyanto/vpn-xray/main/setup.sh && chmod +x setup.sh && ./setup.sh
+    ```
 
 5. Lakukan reboot
 
-```bash
-reboot
-```
+    ```bash
+    reboot
+    ```
 
 6. Install SSL
 
-```bash
-certv2ray
-```
-- Jika ada tulisan hijau tandanya SSL berhasil di install
+    ```bash
+    certv2ray
+    ```
+    - Jika ada tulisan hijau tandanya SSL berhasil di install
 
-```bash
-restart-xray
-```
+    ```bash
+    restart-xray
+    ```
 
 7. Membuat akun TROJAN
-- Masuk ke menu ketik **xmenu**
-- Buat Akun Trojan
+
+    - Masuk ke menu ketik **xmenu**
+    - Buat Akun Trojan
 
 8. Lakukan reboot
 
-```bash
-reboot
-```
+    ```bash
+    reboot
+    ```
 
 9. Cek apakah port 443 sudah open/listen
 
-```bash
-netstat -tuln
-```
-- Jika port sudah listen tandanya sudah berhasil 
+    ```bash
+    netstat -tuln
+    ```
+    - Jika port sudah listen tandanya sudah berhasil 
