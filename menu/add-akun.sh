@@ -315,7 +315,7 @@ END
 #buatvmess
 clear
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a /etc/log-create-user.log
-echo -e "====== XRAY MANTAP Multi Port=======" | tee -a /etc/log-create-user.log
+echo -e "====== XRAY Multi Port=======" | tee -a /etc/log-create-user.log
 echo -e "INFORMASI AKUN VPN XRAY" | tee -a /etc/log-create-user.log
 echo -e "IP: $MYIP" | tee -a /etc/log-create-user.log
 echo -e "Host/Domain: $domain" | tee -a /etc/log-create-user.log
@@ -369,6 +369,6 @@ echo -e "=> WS TLS : /xrayvws" | tee -a /etc/log-create-user.log
 echo -e "=> GRPC   : vmess-grpc" | tee -a /etc/log-create-user.log
 echo -e "=> OPOK   : ws://bugcom/xrayvws" | tee -a /etc/log-create-user.log
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a /etc/log-create-user.log
-echo -e "SCRIPT MANTAP XRAY" | tee -a /etc/log-create-user.log
+echo -e "SCRIPT XRAY" | tee -a /etc/log-create-user.log
 echo "" | tee -a /etc/log-create-user.log
 cd

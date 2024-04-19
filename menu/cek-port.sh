@@ -18,7 +18,6 @@ clear
 echo -e "\e[0m                                                   "
 echo -e "\e[1;31m     [*][*][*]======================================[*][*][*]"
 echo -e "\e[0m                                                   "
-echo -e "\e[0;37m                    Auto Script MANTAP by SL    "
 echo -e "\e[0;37m                    Port Yang Sedang Aktif      "
 echo -e "\e[0;37m                    Service Port                "
 echo -e "\e[0m                                                   "
