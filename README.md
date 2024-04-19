@@ -32,7 +32,7 @@
 3. Sesuaikan domain kamu atau bisa juga subdomain dibawah ini, silahkan ubah **vpn.domainmu.my.id**
 
     ```bash
-    echo "vpn.domainmu.my.id" >/root/domain; mkdir -p /etc/xray; echo "vpn.domainmu.my.id" >/etc/xray/domain
+    DOMAIN="vpn.domainmu.my.id"; echo "$DOMAIN" > /root/domain; mkdir -p /etc/xray; echo "$DOMAIN" > /etc/xray/domain
     ```
 
 4. Untuk install VPN
