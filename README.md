@@ -57,13 +57,13 @@
 
 6. Tambakan auto reboot setiap pukul 5 AM
      ```bash
-    (crontab -l ; echo "0 5 * * * /sbin/reboot") > temp && crontab temp && rm temp
+    (crontab -l ; echo "0 5 * * * /sbin/reboot") > temp && crontab temp && rm temp && reboot
     ```
 
-    Lakukan reboot
+    Lakukan cek cronjob
 
     ```bash
-    reboot
+    crontab -e
     ```
 
 7. Membuat akun Trojan
