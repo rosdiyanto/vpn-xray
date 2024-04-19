@@ -7,7 +7,7 @@
 1. Lakukan update/upgrade
 
     ```bash
-    apt update && apt upgrade -y && reboot
+    apt-get update && yes | apt-get upgrade && reboot
     ```
 2. Setting Cloudflare
 
