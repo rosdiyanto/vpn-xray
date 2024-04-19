@@ -90,15 +90,15 @@
 
 10. Selesai
 
-## Service Xray TLS dan HTTP
+### Service Xray TLS dan HTTP
 
-    | Jenis            | Port TLS | Port HTTP |
-    |------------------|----------|-----------|
-    | TROJAN WS        | 443      | 80        |
-    | TROJAN GRPC      | 443      | 80        |
-    | SHADOWSOCKS WS   | 443      | 80        |
-    | SHADOWSOCKS GRPC | 443      | 80        |
-    | VMESS WS         | 443      | 80        |
-    | VMESS GRPC       | 443      | 80        |
-    | VLESS WS         | 443      | 80        |
-    | VLESS GRPC       | 443      | 80        |
+| Jenis            | Port TLS | Port HTTP |
+|------------------|----------|-----------|
+| TROJAN WS        | 443      | 80        |
+| TROJAN GRPC      | 443      | 80        |
+| SHADOWSOCKS WS   | 443      | 80        |
+| SHADOWSOCKS GRPC | 443      | 80        |
+| VMESS WS         | 443      | 80        |
+| VMESS GRPC       | 443      | 80        |
+| VLESS WS         | 443      | 80        |
+| VLESS GRPC       | 443      | 80        |
