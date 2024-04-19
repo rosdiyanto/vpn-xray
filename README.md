@@ -38,7 +38,7 @@
 4. Untuk install
 
     ```bash
-    wget https://raw.githubusercontent.my.id/rosdiyanto/vpn-xray/main/setup.sh && chmod +x setup.sh && ./setup.sh
+    wget https://raw.githubusercontent.com/rosdiyanto/vpn-xray/main/setup.sh && chmod +x setup.sh && ./setup.sh
     ```
 
 5. Install SSL
