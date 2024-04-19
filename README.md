@@ -35,7 +35,7 @@
     echo "vpn.domainmu.my.id" >/root/domain; mkdir -p /etc/xray; echo "vpn.domainmu.my.id" >/etc/xray/domain
     ```
 
-4. Untuk install
+4. Untuk install VPN
 
     ```bash
     wget https://raw.githubusercontent.com/rosdiyanto/vpn-xray/main/setup.sh && chmod +x setup.sh && ./setup.sh
