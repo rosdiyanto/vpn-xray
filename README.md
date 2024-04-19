@@ -23,22 +23,22 @@
         
         Type  | Name           | Content            | Proxy Status | TTL 
         ------|----------------|--------------------|--------------|-----
-        A     | domainmu.com   | [IP Server VPS]    | DNS Only     | Auto 
+        A     | domainmu.my.id   | [IP Server VPS]    | DNS Only     | Auto 
 
     - Masuk ke SSL/TLS -> Overview -> (set ke full)
     - Masuk ke SSL/TLS -> Edge Certificates -> Always Use HTTPS -> (set ke off)
     - Masuk ke Network -> WebSockets -> (set ke on)
 
-3. Sesuaikan domain kamu atau bisa juga subdomain dibawah ini, silahkan ubah **vpn.domainmu.com**
+3. Sesuaikan domain kamu atau bisa juga subdomain dibawah ini, silahkan ubah **vpn.domainmu.my.id**
 
     ```bash
-    echo "vpn.domainmu.com" >/root/domain; mkdir -p /etc/xray; echo "vpn.domainmu.com" >/etc/xray/domain
+    echo "vpn.domainmu.my.id" >/root/domain; mkdir -p /etc/xray; echo "vpn.domainmu.my.id" >/etc/xray/domain
     ```
 
 4. Untuk install
 
     ```bash
-    wget https://raw.githubusercontent.com/rosdiyanto/vpn-xray/main/setup.sh && chmod +x setup.sh && ./setup.sh
+    wget https://raw.githubusercontent.my.id/rosdiyanto/vpn-xray/main/setup.sh && chmod +x setup.sh && ./setup.sh
     ```
 
 5. Install SSL
