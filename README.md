@@ -55,25 +55,7 @@
 
     Lakukan restart xray
 
-6. Membuat akun Trojan
-
-    - Masuk ke menu ketik **xmenu**
-    - Buat Akun Trojan
-
-    Lakukan reboot
-
-    ```bash
-    reboot
-    ```
-
-7. Cek apakah port 443 sudah open/listen
-
-    ```bash
-    netstat -tuln
-    ```
-    Jika port sudah listen tandanya sudah berhasil 
-
-8. Tambakan auto reboot setiap pukul 5 AM
+6. Tambakan auto reboot setiap pukul 5 AM
      ```bash
     (crontab -l ; echo "0 5 * * * /sbin/reboot") > temp && crontab temp && rm temp
     ```
@@ -84,7 +66,18 @@
     reboot
     ```
 
-9. Selesai
+7. Membuat akun Trojan
+
+    - Masuk ke menu ketik **xmenu**
+    - Buat Akun Trojan
+
+    Lakukan reboot
+
+    ```bash
+    reboot
+    ```
+
+8. Selesai
 
 ### Service Xray TLS dan HTTP
 
