@@ -41,13 +41,13 @@
     wget https://raw.githubusercontent.com/rosdiyanto/vpn-xray/main/setup.sh && chmod +x setup.sh && ./setup.sh
     ```
 
-5. Lakukan reboot
+    Lakukan reboot
 
     ```bash
     reboot
     ```
 
-6. Install SSL
+5. Install SSL
 
     ```bash
     certv2ray
@@ -59,7 +59,7 @@
     restart-xray
     ```
 
-7. Membuat akun Trojan
+6. Membuat akun Trojan
 
     - Masuk ke menu ketik **xmenu**
     - Buat Akun Trojan
@@ -70,14 +70,14 @@
     reboot
     ```
 
-8. Cek apakah port 443 sudah open/listen
+7. Cek apakah port 443 sudah open/listen
 
     ```bash
     netstat -tuln
     ```
     Jika port sudah listen tandanya sudah berhasil 
 
-9. Tambakan auto reboot setiap pukul 5 AM
+8. Tambakan auto reboot setiap pukul 5 AM
      ```bash
     (crontab -l ; echo "0 5 * * * /sbin/reboot") > temp && crontab temp && rm temp
     ```
@@ -88,7 +88,7 @@
     reboot
     ```
 
-10. Selesai
+9. Selesai
 
 ### Service Xray TLS dan HTTP
 
