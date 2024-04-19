@@ -29,7 +29,7 @@
     - Masuk ke SSL/TLS -> Edge Certificates -> Always Use HTTPS -> (set ke off)
     - Masuk ke Network -> WebSockets -> (set ke on)
 
-3. Masukan domain kamu atau bisa juga subdomain
+3. Sesuaikan domain kamu atau bisa juga subdomain dibawah ini, silahkan ubah **vpn.domainmu.com**
 
     ```bash
     echo "vpn.domainmu.com" >/root/domain; mkdir -p /etc/xray; echo "vpn.domainmu.com" >/etc/xray/domain
