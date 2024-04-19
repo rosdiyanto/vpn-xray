@@ -75,11 +75,10 @@ echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo " Reboot 15 Sec"
 sleep 15
-reboot
 cd
 rm -rf updatedll
 rm -rf updatedll.sh
 rm -rf setup.sh
 rm -rf install-xray.sh
 rm -rf install-tools.sh
-
+reboot
