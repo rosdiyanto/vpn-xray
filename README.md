@@ -64,35 +64,41 @@
     - Masuk ke menu ketik **xmenu**
     - Buat Akun Trojan
 
-8. Lakukan reboot
+    Lakukan reboot
 
     ```bash
     reboot
     ```
 
-9. Cek apakah port 443 sudah open/listen
+8. Cek apakah port 443 sudah open/listen
 
     ```bash
     netstat -tuln
     ```
     Jika port sudah listen tandanya sudah berhasil 
 
-## FITUR XRAY TLS
-- TROJAN WS        : **443**
-- TROJAN GRPC      : **443**
-- SHADOWSOCKS WS   : **443**
-- SHADOWSOCKS GRPC : **443**
-- VMESS WS         : **443**
-- VMESS GRPC       : **443**
-- VLESS WS         : **443**
-- VLESS GRPC       : **443**
+9. Tambakan auto reboot setiap pukul 5 AM
+     ```bash
+    (crontab -l ; echo "0 9 * * * /sbin/reboot") > temp && crontab temp && rm temp
+    ```
 
-## FITUR XRAY HTTP
-- TROJAN WS        : **80**
-- TROJAN GRPC      : **80**
-- SHADOWSOCKS WS   : **80**
-- SHADOWSOCKS GRPC : **80**
-- VMESS WS         : **80**
-- VMESS GRPC       : **80**
-- VLESS WS         : **80**
-- VLESS GRPC       : **80**
+    Lakukan reboot
+
+    ```bash
+    reboot
+    ```
+
+10. Selesai
+
+## Service Xray TLS dan HTTP
+
+    | Jenis            | Port TLS | Port HTTP |
+    |------------------|----------|-----------|
+    | TROJAN WS        | 443      | 80        |
+    | TROJAN GRPC      | 443      | 80        |
+    | SHADOWSOCKS WS   | 443      | 80        |
+    | SHADOWSOCKS GRPC | 443      | 80        |
+    | VMESS WS         | 443      | 80        |
+    | VMESS GRPC       | 443      | 80        |
+    | VLESS WS         | 443      | 80        |
+    | VLESS GRPC       | 443      | 80        |
