@@ -41,12 +41,6 @@
     wget https://raw.githubusercontent.com/rosdiyanto/vpn-xray/main/setup.sh && chmod +x setup.sh && ./setup.sh
     ```
 
-    Lakukan reboot
-
-    ```bash
-    reboot
-    ```
-
 5. Install SSL
 
     ```bash
