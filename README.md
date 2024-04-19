@@ -77,7 +77,20 @@
     reboot
     ```
 
-8. Selesai
+8. Cek port apakah 443 open
+
+     ```bash
+    result=$(netstat -tuln | grep ":443 "); echo "$result"; if [ -n "$result" ]; then echo "Port 443 is open"; else echo "Port 443 is closed"; fi
+    ```
+
+    ***Jika port 443 open vpn sudah bisa digunakan***
+
+    Cek semua port yang open
+    ```bash
+    netstat -tuln
+    ```
+
+9. Selesai
 
 ### Service Xray TLS dan HTTP
 
