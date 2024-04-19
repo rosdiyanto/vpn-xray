@@ -55,9 +55,9 @@
 
     Lakukan restart xray
 
-6. Tambakan auto reboot setiap pukul 5 AM
+6. Tambakan auto reboot setiap pukul 6 AM
      ```bash
-    (crontab -l ; echo "0 5 * * * /sbin/reboot") > temp && crontab temp && rm temp && reboot
+    (crontab -l ; echo "0 6 * * * /sbin/reboot") > temp && crontab temp && rm temp && reboot
     ```
 
     Lakukan cek cronjob
